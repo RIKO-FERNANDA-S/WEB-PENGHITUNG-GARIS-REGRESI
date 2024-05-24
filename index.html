@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <h1>Menghitung Garis Regresi</h1>
+    <section class="main">
+
+      <div id="input" >
+        <input type="number" id="Sx" placeholder="Sigma x"/>
+        <input type="number" id="Sy" placeholder="Sigma y"/>
+        <input type="number" id="Sx2" placeholder="Sigma x2"/>
+        <!-- <input type="number" id="Sy2" placeholder="Sigma y2"/> -->
+        <input type="number" id="Sxy" placeholder="Sigma xy"/>
+        <input type="number" id="n" placeholder="Banyak pasang data"/>
+        <button id="submit" >Submit</button>
+      </div>
+
+      <div class="output">
+        <span>
+            <h4>Rata-rata x :</h4>
+            <p id="rata-x"></p>
+        </span>
+        <span>
+            <h4>Rata-rata y :</h4>
+            <p id="rata-y" ></p>
+        </span>
+        <span>
+            <h4>Nilai SSxx :</h4>
+            <p id="nilai-ssxx" ></p>
+        </span>
+        <!-- <span>
+            <p>Nilai SSyy :</p>
+            <p id="nilai-ssyy" >10</p>
+        </span> -->
+        <span>
+            <h4>Nilai SSxy :</h4>
+            <p id="nilai-ssxy" ></p>
+        </span>
+        <span>
+            <h4>Nilai a :</h4>
+            <p id="nilai-a" ></p>
+        </span>
+        <span>
+            <h4>Nilai b :</h4>
+            <p id="nilai-b" ></p>
+        </span>
+        <span>
+            <h4>Persamaan y :</h4>
+            <p id="nilai-y" ></p>
+        </span>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
