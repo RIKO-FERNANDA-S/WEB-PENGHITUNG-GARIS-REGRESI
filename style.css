@@ -109,6 +109,7 @@ button{
     .output{
         display: flex;
         margin: 0;
+        width: max-content;
     }
 
     .output span{
