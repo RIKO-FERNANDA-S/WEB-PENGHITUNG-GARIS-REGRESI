@@ -17,7 +17,7 @@ body h1{
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(220, 253, 188);
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 3px black;
 }
 
 .main{
@@ -117,5 +117,11 @@ button{
 
     .output span h4{
         font-size: 1rem;
+    }
+
+    body h1{
+        font-size: 2rem;
+        font-weight: 700;
+        -webkit-text-stroke: 1px black;
     }
 }
