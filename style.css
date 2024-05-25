@@ -102,6 +102,9 @@ button{
 
 
 @media (max-width: 768px){
+    body{
+        height: 100%;
+    }
     .main{
         flex-direction: column;
     }
