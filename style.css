@@ -124,4 +124,8 @@ button{
         font-weight: 700;
         -webkit-text-stroke: 1px black;
     }
+
+    #input input{
+        width: 70%;
+    }
 }
